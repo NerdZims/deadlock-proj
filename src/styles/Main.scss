@@ -1,0 +1,16 @@
+html {
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.item-list {
+  display: flex;
+  background-color: aqua;
+  flex-direction: row;
+  .list-element{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

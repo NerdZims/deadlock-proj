@@ -1,0 +1,47 @@
+.card-obj{
+    background-color: peru;
+    width: 300px;
+    height: 425px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: .5rem;
+    overflow: hidden;
+    box-shadow: 8px 6px 6px greenyellow;
+    .img-holder{
+      height: 35%;
+      background-color: gray;
+      padding: 1rem;
+      overflow: hidden;
+      img{
+        width: 60%;
+        height: 100%;
+      }
+    }
+    .desc-holder{
+        height: 65%;
+    }
+    h4{
+      margin-top: 8px;
+      margin-bottom: 8px;
+    }
+    p{
+      font-size: 8pt;
+    }
+}
+
+.card-obj:hover{
+    cursor: pointer;
+    animation: float-animation 3s ease-in-out infinite alternate;
+}
+
+@keyframes float-animation {
+  0% {
+    transform: translateY(0px); /* Starting position */
+  }
+  50% {
+    transform: translateY(-20px); /* Move up 20px */
+  }
+  100% {
+    transform: translateY(0px); /* Return to starting position */
+  }
+}
