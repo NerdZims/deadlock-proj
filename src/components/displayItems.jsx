@@ -10,6 +10,7 @@ function DisplayItems(data) {
           title={item.name}
           id={item.id}
           desc={item.description}
+          
         />
       ))}
     </div>
