@@ -13,7 +13,7 @@ function Items() {
   .then((data) => {
     data.forEach(element => {
       if(element.shopable == true && element.cost < 9999){
-        console.log(element.name);
+        //console.log(element.name);
         filteredItems.push(element);
       }
       
