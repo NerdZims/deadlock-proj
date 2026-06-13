@@ -34,6 +34,16 @@
     animation: float-animation 3s ease-in-out infinite alternate;
 }
 
+.highlight {
+  color: #f0d8a8; /* Example gold/amber color for game text */
+  font-weight: bold;
+}
+
+.diminish {
+  color: #888888; /* Greyed out text for secondary modifiers */
+  font-size: 0.9em;
+}
+
 @keyframes float-animation {
   0% {
     transform: translateY(0px); /* Starting position */

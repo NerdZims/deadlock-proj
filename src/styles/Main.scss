@@ -7,10 +7,6 @@ html {
   display: flex;
   background-color: aqua;
   flex-direction: row;
-  .list-element{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  flex-wrap: wrap;
+  justify-content: center;
 }
