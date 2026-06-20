@@ -1,5 +1,4 @@
 import "../styles/Card.scss"
-import parse from 'html-react-parser';
 
 function Card({img, title, id, desc}){
     //Create a on click function to the cards

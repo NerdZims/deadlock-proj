@@ -1,9 +1,23 @@
 html {
-  justify-content: center;
   overflow-x: hidden;
 }
 
+.main-ctr {
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  align-items: center;
+}
+
 .item-list {
+  display: flex;
+  background-color: aqua;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.items-ctr{
   display: flex;
   background-color: aqua;
   flex-direction: row;

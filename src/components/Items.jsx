@@ -40,7 +40,7 @@ export default function Items(){
 
 
   return (
-    <div>
+    <div className="items-ctr">
       {console.log("The items component has mounted", items.length, "items loaded.", items[0])}
         {items.map((item) => (
           <Card
