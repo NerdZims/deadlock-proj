@@ -1,6 +1,6 @@
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+  line-height: 1.5rem;
   font-weight: 400;
 
   color-scheme: light dark;
@@ -11,22 +11,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  justify-content: flex-end;
 }
 
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.sidebar{
-  flex: 1 1 0;
-  min-width: 300px;
-  background-color: GREEN;
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
 }
 
 a {
