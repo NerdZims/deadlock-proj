@@ -4,6 +4,8 @@ import Counter from "../components/Counter.jsx";
 import Footer from "../components/Footer.jsx";
 
 function Main(){
+    
+
     return(
         <div className="main-ctr">
             <aside class="sidebar">

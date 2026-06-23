@@ -1,14 +1,18 @@
-html {
-  overflow-x: hidden;
-}
-
 .main-ctr {
   display: flex;
-  background-color: red;
+
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   align-items: center;
+}
+
+.main-content-ctr {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar{
@@ -19,7 +23,6 @@ html {
   height: 100%;
   background-color: #111;
   padding-top: 120px;
-  z-index: 1000;
   line-height: 2.5rem;
   border-right: 3px solid #333;
   hr{
@@ -38,6 +41,7 @@ html {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 15px 0px;
 }
 
 .items-ctr{

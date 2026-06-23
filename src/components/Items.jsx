@@ -36,9 +36,6 @@ export default function Items(){
   if(items.length === 0){
     return <p>No items available in The Cursed Apple.</p>;
   }
-  
-
-
   return (
     <div className="items-ctr">
       {console.log("The items component has mounted", items.length, "items loaded.", items[0])}
@@ -48,7 +45,7 @@ export default function Items(){
             img={item.shop_image_webp}
             title={item.name}
             id={item.id}
-            
+            desc={item.item_slot_type}
           />
         ))}
     </div>

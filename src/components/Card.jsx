@@ -8,7 +8,7 @@ function Card({img, title, id, desc}){
     
     return(
         // img desc title cost
-        <div className="card-obj" onClick={handleClick}>
+        <div className="card-obj" onClick={handleClick} type={desc} id={id}>
             <div className="img-holder">
                 <img src={img} alt="Card image"/>
             </div>
@@ -16,7 +16,7 @@ function Card({img, title, id, desc}){
                 <h4>{title}</h4>
 
                 <br/>
-                <p>{id}</p>
+                <p>{desc}</p>
             </div>
         </div>
     );

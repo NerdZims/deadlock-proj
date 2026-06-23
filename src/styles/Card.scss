@@ -29,6 +29,16 @@
     }
 }
 
+[type="spirit"] {
+  background-color: rgba(168, 16, 168, 0.788); /* Example gold/amber color for game text */
+  font-weight: bold;
+}
+
+[type="vitality"] {
+  background-color: rgba(51, 131, 51, 0.726); /* Example gold/amber color for game text */
+  font-weight: bold;
+}
+
 .card-obj:hover{
     cursor: pointer;
     animation: float-animation 3s ease-in-out infinite alternate;
